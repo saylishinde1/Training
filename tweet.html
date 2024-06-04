@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+body {
+    background: #ffff;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .container{
+     width: 475px;
+     height: 138px;
+     border: 4px solid #ffff;
+     display: flex;
+     align-items: center;
+     position:absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     padding: 4px;
+   }
+   .profile-pic{
+     width: 130px;
+     height: 130px;
+     margin-right: 14px;
+     border: 4px solid #ffff;
+   }
+   .profile-pic img{
+     width: 100%;
+     height: 100%;
+   }
+   .content{
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     height: 100%;
+   }
+   .username{
+     font-weight: bold;
+     font-size: 20px;
+     color: #000000;
+     margin-top: 24px;
+   }
+   .text{
+     font-size: 20px;
+     color: #000000;
+     margin-bottom: 14px;
+   }
+   .tweet-info-counts {
+    display: flex;
+    margin-bottom:14px;
+  }
+  .tweet-info-counts div {
+    display: flex;
+    margin-right: 20px;
+  }
+  .tweet-info-counts div svg {
+    color:#657786;
+    margin-right: 10px;
+  }
+</style>
+</head>
+
+<body>
+<div class="container">
+  <div class="profile-pic">
+    <img src="https://th.bing.com/th/id/OIP.USL3Pj25DudrZ7NzisisyQAAAA?w=141&h=159&c=7&r=0&o=5&pid=1.7" alt="Profile Pic">
+  </div>
+    <div class="content">
+      <div
+       class="username">@moshhamedari</div>
+       <div
+      class="text">I'd love to teach you HTML/CSS!</div>
+    <div class="tweet-info-counts">
+        <div class="comments">
+          <svg class="feather feather-message-circle sc-dnqmqq jxshSx" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+          <div class="comment-count">242</div>
+        </div>
+        <div class="retweets">
+          <svg class="feather feather-repeat sc-dnqmqq jxshSx" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="17 1 21 5 17 9"></polyline><path d="M3 11V9a4 4 0 0 1 4-4h14"></path><polyline points="7 23 3 19 7 15"></polyline><path d="M21 13v2a4 4 0 0 1-4 4H3"></path></svg>
+          <div class="retweet-count">142</div>
+        </div>
+        <div class="likes">
+          <svg class="feather feather-heart sc-dnqmqq jxshSx" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+          <div class="likes-count">
+            2.6k
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+  </body>
+  </html>
