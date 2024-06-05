@@ -1,6 +1,11 @@
 body {
+<<<<<<< HEAD
     background: #657786;
+    font-family: 'Roboto', sans-serif;
+=======
+    background: #e6ecf0;
     font-family: 'Roboto', sans-serif, TimesNewRoman;
+>>>>>>> origin
   
   }
   img {
